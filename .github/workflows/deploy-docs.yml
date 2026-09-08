@@ -52,3 +52,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # 推送的分支
           publish_branch: gh-pages
+          force_orphan: true
