@@ -38,7 +38,7 @@ jobs:
       # 步骤 4: 生成 HTML 文档
       - name: Build HTML documentation
         run: |
-          cd ./
+          cd ~/pdocs
           make html
 
       # 步骤 5: 部署到 GitHub Pages
