@@ -46,7 +46,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           # 文档源目录
-          publish_dir: ~/pdocs/_build/html
+          publish_dir: /home/x14g1a/pdocs/_build/html
           # 提交信息
           commit_message: "Deploy Sphinx docs for ${{ github.sha }}"
           # 个人访问令牌（如果需要）
