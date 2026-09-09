@@ -13,6 +13,6 @@ Pdocs 是一个文档中心，用于发布和更新TBDIC（Digital Intelligence 
    :caption: Contents:
    
    视觉估重装置
-   
+   声纹识别装置 
    
 
