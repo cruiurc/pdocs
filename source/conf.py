@@ -28,25 +28,25 @@ language = 'zh_CN'
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'furo'
+html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
-html_sidebars = {
-    "**": [
-        "sidebar/scroll-start.html",
-        "sidebar/brand.html",
-        "sidebar/search.html",
-        "sidebar/navigation.html",
-        "sidebar/ethical-ads.html",
-        "sidebar/scroll-end.html",
-    ]
-}
+#html_sidebars = {
+#    "**": [
+#        "sidebar/scroll-start.html",
+#        "sidebar/brand.html",
+#        "sidebar/search.html",
+#        "sidebar/navigation.html",
+#        "sidebar/ethical-ads.html",
+#        "sidebar/scroll-end.html",
+#    ]
+#}
 
-html_css_files = [
-    'custom.css',
-]
+#html_css_files = [
+#    'custom.css',
+#]
 
-html_theme_options = {
-    "collapse_navigation": True,  # 默认开启，非当前页面的目录会折叠
-    "navigation_with_keys": True,  # 支持键盘导航展开/折叠
-}
+#html_theme_options = {
+#    "collapse_navigation": True,  # 默认开启，非当前页面的目录会折叠
+#    "navigation_with_keys": True,  # 支持键盘导航展开/折叠
+#}
