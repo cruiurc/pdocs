@@ -31,13 +31,13 @@ language = 'zh_CN'
 html_theme = 'furo'
 html_static_path = ['_static']
 
-html_sidebars = {
-    "**": [
-        "sidebar/scroll-start.html",
-        "sidebar/brand.html",
-        "sidebar/search.html",
-        "sidebar/navigation.html",
-        "sidebar/ethical-ads.html",
-        "sidebar/scroll-end.html",
-    ]
-}
+#html_sidebars = {
+#    "**": [
+#        "sidebar/scroll-start.html",
+#        "sidebar/brand.html",
+#        "sidebar/search.html",
+#        "sidebar/navigation.html",
+#        "sidebar/ethical-ads.html",
+#        "sidebar/scroll-end.html",
+#    ]
+#}
