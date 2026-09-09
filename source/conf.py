@@ -41,3 +41,12 @@ html_static_path = ['_static']
 #        "sidebar/scroll-end.html",
 #    ]
 #}
+
+html_css_files = [
+    'custom.css',
+]
+
+html_theme_options = {
+    "collapse_navigation": True,  # 默认开启，非当前页面的目录会折叠
+    "navigation_with_keys": True,  # 支持键盘导航展开/折叠
+}
