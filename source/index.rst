@@ -3,15 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-pdocs documentation
+Pdocs
 ===================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
-
+Pdocs 是一个文档中心，用于发布和更新TBDIC（Digital Intelligence Center）产品文档
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   
+    视觉估重装置
 
