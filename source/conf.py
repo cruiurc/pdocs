@@ -31,5 +31,6 @@ language = 'zh_CN'
 html_theme = 'furo'
 html_static_path = ['_static']
 
-
-myst_enable_extensions = [ "html_image", "html_admonition", "colon_fence", "sphinx.ext.autodoc", "sphinx.ext.extlinks", "sphinx.ext.intersphinx", "sphinx.ext.mathjax", "sphinx.ext.todo", "sphinx.ext.viewcode", "furo.sphinxext", "myst_parser", "sphinx_copybutton", "sphinx_design", "sphinx_inline_tabs"]
+html_sidebars = {
+    '**': ['globaltoc.html', 'localtoc.html', 'searchbox.html']
+}

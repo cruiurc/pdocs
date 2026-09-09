@@ -4,9 +4,6 @@
 .. toctree::
    :maxdepth: 2
 
-.. sidebar:: 实例-内置目录
-
-    .. contents:: Table of Contents
 
  
 
