@@ -1,0 +1,26 @@
+/* This file intentionally left blank. */
+/* 调整侧边栏TOC箭头的基础样式 */
+.furo-sidebar-tree .toctree-l1 > a > svg,
+.furo-sidebar-tree .toctree-l2 > a > svg,
+.furo-sidebar-tree .toctree-l3 > a > svg {
+    fill: #555;
+    width: 14px;
+    height: 14px;
+    margin-right: 4px;
+    transition: transform 0.2s ease;
+}
+
+/* 展开状态下的箭头旋转效果 */
+.furo-sidebar-tree .toctree-l1.expanded > a > svg,
+.furo-sidebar-tree .toctree-l2.expanded > a > svg,
+.furo-sidebar-tree .toctree-l3.expanded > a > svg {
+    transform: rotate(90deg);
+}
+
+/* 调整目录层级缩进，让箭头更突出 */
+.furo-sidebar-tree .toctree-l2 {
+    padding-left: 12px;
+}
+.furo-sidebar-tree .toctree-l3 {
+    padding-left: 24px;
+}
