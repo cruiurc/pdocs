@@ -4,7 +4,12 @@
 .. toctree::
    :maxdepth: 2
 
-**使用**
+.. sidebar:: 实例-内置目录
+
+    .. contents:: Table of Contents
+
+ 
+ **使用**
 ---------
 
 1. 组装
