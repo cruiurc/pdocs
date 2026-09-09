@@ -33,7 +33,7 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install -r ./requirements.txt
-          pip install sphinx sphinx-rtd-theme sphinx-autodoc-typehints sphinx-copybutton myst-parser sphinxcontrib-jquery
+          pip install sphinx sphinx-rtd-theme sphinx-autodoc-typehints sphinx-copybutton myst-parser sphinxcontrib-jquery furo
 
       # 步骤 4: 生成 HTML 文档
       - name: Build HTML documentation
