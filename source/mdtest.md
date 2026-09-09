@@ -5,7 +5,7 @@
 在markdown里强制换行是在末尾添加2个空格+1个回车.  
 在markdown里可以使用 \ 对特殊符号进行转义.  
 
-# 1. 标题
+## 1. 标题
 
 **语法**
 ```
@@ -17,12 +17,11 @@
 
 **实例**
 
-# This is an h1 tag
 ## This is an h2 tag
 ### This is an h3 tag
 #### This is an h4 tag
 
-# 2. 强调和斜体
+## 2. 强调和斜体
 
 **语法**
 ```
@@ -42,7 +41,7 @@ _This will also be italic_
 **This text will be bold**
 __This will also be bold__
 
-# 3. 有序列表和无序列表
+## 3. 有序列表和无序列表
 
 **语法**
 ```
@@ -64,7 +63,7 @@ __This will also be bold__
 2. Item 2
 3. Item 3
 
-# 4. 图片
+## 4. 图片
 
 **语法**
 ```
@@ -74,7 +73,7 @@ __This will also be bold__
 **实例**
 ![博客园logo](https://news.cnblogs.com/images/logo.gif)
 
-# 5. 超链接
+## 5. 超链接
 
 **语法**
 ```
@@ -85,7 +84,7 @@ __This will also be bold__
 
 [阿胜4K](http://www.cnblogs.com/asheng2016/)
 
-# 6. 引用
+## 6. 引用
 
 **语法**
 ```
@@ -98,7 +97,7 @@ __This will also be bold__
 > If you please draw me a sheep!  
 > 不想当将军的士兵, 不是好士兵.  
 
-# 7. 单行代码
+## 7. 单行代码
 
 **语法**
 ```
@@ -109,7 +108,7 @@ __This will also be bold__
 
 `同样的单行代码, 我经常用来显示特殊名词`
 
-# 8. 多行代码
+## 8. 多行代码
 
 **语法**
 ````
@@ -132,7 +131,7 @@ for (var i=0; i<100; i++) {
 
     console.loe("Hello_World");
 
-# 参考链接
+## 参考链接
 
 https://guides.github.com/features/mastering-markdown/  
 https://help.github.com/articles/basic-writing-and-formatting-syntax/  
