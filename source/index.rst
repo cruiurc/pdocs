@@ -9,8 +9,8 @@ Pdocs
 Pdocs 是一个文档中心，用于发布和更新TBDIC（Digital Intelligence Center）产品文档
 
 .. toctree::
+   视觉估重装置
    :maxdepth: 2
    :caption: Contents:
    
-    视觉估重装置
 
