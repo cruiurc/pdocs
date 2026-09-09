@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'pdocs'
-copyright = '2026, admin'
+copyright = '2026, tbpmo'
 author = 'admin'
 release = '0.1'
 
